@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="logo">
-        <img src="logo.png" alt="Logo" /> 
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvW3crC79OOpuSAPhAFhmUhynDVJIStWLUg568yuN0Nd3BwuU0sNldZ4iVhG-1Tsg1j9o&usqp=CAU" alt="Logo" /> 
       </div>
       <ul className={`nav-links ${isNavOpen ? 'active' : ''}`}>
         <li><a href="#home" onClick={handleNavLinkClick}>Home</a></li>

@@ -4,12 +4,13 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color:dimgray;
+  background-color:#333;
   color: white;
   width: calc(100% - 40px);
   top: 0;
   z-index: 1000;
   overflow: hidden;
+  border: solid red;
 }
 
 .navbar .logo img {
