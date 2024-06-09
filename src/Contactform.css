@@ -1,0 +1,147 @@
+/* General Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+form input,
+form textarea,
+form button {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+form input:focus,
+form textarea:focus,
+form button:focus {
+    border-color: #333;
+}
+
+form button {
+    background: #333;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #555;
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 480px) {
+    form {
+        padding: 15px;
+    }
+
+    form input,
+    form textarea,
+    form button {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+
+/* Form Label Styling */
+form label {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Responsive Container for Contact Section */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Styling for Contact Details */
+.contact-details {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.contact-details p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contact-details p i {
+    color: #333;
+    margin-right: 10px;
+}
+
+/* Social Icons Styling */
+.social-icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-icon a {
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0 10px;
+    color: #333;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.social-icon a:hover {
+    color: #ff004f;
+    transform: scale(1.1);
+}
+
+/* Button Styling */
+.btn {
+    display: inline-block;
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #555;
+}
+
+/* Mobile Styles for Contact Section */
+@media screen and (max-width: 480px) {
+    .contact-left,
+    .contact-right {
+        flex-basis: 100%;
+        margin: 0;
+    }
+
+    .contact-left p {
+        font-size: 14px;
+    }
+
+    .social-icon a {
+        font-size: 20px;
+        margin: 0 5px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
